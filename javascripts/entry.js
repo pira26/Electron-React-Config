@@ -2,6 +2,17 @@ require('../less/main.less');
 
 'use strict';
 
-import React from "react";
+import React from ('react');
+import ReactDOM from ('react-dom');
 
-React.render(<div className="myDiv">Hello Electron!</div>, document.getElementById('root'));
+class Entry extends Component {
+  render() {
+    return (
+      <div className="myDiv">
+        <Alphabet />
+      </div>
+    );
+  }
+}
+
+ReactDOM.render(<Entry />, document.getElementById('root'));
