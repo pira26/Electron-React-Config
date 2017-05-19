@@ -1,0 +1,36 @@
+{
+  "name": "electron-react-config",
+  "version": "1.0.0",
+  "description": "Use React with Electron ",
+  "main": "index.js",
+  "repository": "https://github.com/pira26/Electron-React-Config",
+  "author": "Pira",
+  "license": "ISC",
+  "scripts": {
+  "start": "./node_modules/electron-prebuilt/dist/electron/electron",
+  "watch": "./node_modules/.bin/webpack-dev-server",
+  "electron-rebuild": "./node_modules/.bin/electron-rebuild"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "css-loader": "^0.28.1",
+    "electron-packager": "^8.7.0",
+    "electron-rebuild": "^1.5.11",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.3",
+    "node-libs-browser": "^2.0.0",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.5",
+    "style-loader": "^0.17.0",
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "dependencies": {
+    "electron-prebuilt": "^1.4.13",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-router-dom": "^4.1.1"
+  }
+}
