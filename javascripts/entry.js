@@ -9,7 +9,7 @@ class Entry extends Component {
   render() {
     return (
       <div className="myDiv">
-        <Alphabet />
+        <p>Test</p>
       </div>
     );
   }
